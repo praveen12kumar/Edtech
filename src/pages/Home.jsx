@@ -2,6 +2,8 @@ import HomeLayout from "../layouts/HomeLayout";
 import Button from "../components/atomic/Button";
 import { Link } from "react-router-dom";
 import LottiImage from "../components/atomic/LottiImage";
+import home from "../assets/home.json";
+
 
 function Home (){
 
@@ -35,7 +37,7 @@ function Home (){
                     </div> 
                 </div>
                 <div className="w-1/3 flex items-center justify-center ">
-                        <LottiImage/>
+                        <LottiImage Animation={home}/>
                     </div>
             </div>
         </HomeLayout>

@@ -1,19 +1,15 @@
 
-
 import Lottie from "lottie-react";
-import Animation from "../../assets/Animation.json";
 
-
-
-function LottiImage(){
+function LottiImage({Animation, height=400, width=400}){
 
     
 
 
     return(
        <Lottie animationData={Animation}
-        height={400}
-        width={400}
+        height={height}
+        width={width}
        />
     )
 }
