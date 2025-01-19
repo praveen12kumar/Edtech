@@ -35,6 +35,9 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      "rules": {
+        "react/prop-types": "off"
+        },
 
       // Add simple-import-sort rules here
       'simple-import-sort/imports': 'error',
