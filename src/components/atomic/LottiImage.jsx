@@ -1,24 +1,17 @@
 
 
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import Animation from "../../assets/Animation.json";
 
 
 
 function LottiImage(){
 
-    const defaultOptions = {
-        loop: true,
-        autoplay: true, 
-        animationData: Animation,
-        rendererSettings: {
-          preserveAspectRatio: 'xMidYMid slice'
-        }
-    }
+    
 
 
     return(
-       <Lottie options={defaultOptions}
+       <Lottie animationData={Animation}
         height={400}
         width={400}
        />

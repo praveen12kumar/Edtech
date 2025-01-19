@@ -1,11 +1,19 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {FiMenu} from "react-icons/fi";
 import { AiFillCloseCircle } from "react-icons/ai";
 import Footer from "../components/molecules/Footer";
+import { useDispatch, useSelector } from "react-redux";
+import Button from "../components/atomic/Button";
 
 function HomeLayout({ children }) {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+
+    const {role, isLoggedIn} = useSelector((state) => state?.auth);
+
 
     function toggleDrawer() {
         setIsDrawerOpen(!isDrawerOpen);
@@ -50,6 +58,13 @@ function HomeLayout({ children }) {
                         <li>
                             <Link to="/">Home</Link>
                         </li>
+                        {
+                            isLoggedIn && role === "ADMIN" && (
+                                <li>
+                                    <Link to="/admin/dashboard">Admin Dashboard</Link>
+                                </li>
+                            )
+                        }
                         <li>
                             <Link to="/">All courses</Link>
                         </li>
@@ -59,6 +74,24 @@ function HomeLayout({ children }) {
                         <li>
                             <Link to="/">About Us</Link>
                         </li>
+                        {
+                            !isLoggedIn && (
+                                <div className="w-full flex flex-col items-center justify-center gap-3">
+                                    <Link to="/login">
+                                        <Button
+                                        text="Log in"
+                                        className="btn btn-accent font-semibold"
+                                        />
+                                    </Link> 
+                                    <Link to="/signin">
+                                        <Button
+                                        text="Sign in"
+                                        className="btn btn-primary font-semibold"
+                                        />
+                                    </Link>  
+                                </div>
+                            )
+                        }
                     </ul>
                 </div>
             </div>
