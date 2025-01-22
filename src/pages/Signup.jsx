@@ -49,7 +49,7 @@ function Signup(){
     }
 
 
-    function createNewAccount(e){
+    async function createNewAccount(e){
         e.preventDefault();
         console.log(formValues);
         if(!formValues.username || !formValues.email || !formValues.password || !formValues.avatar){
@@ -69,10 +69,13 @@ function Signup(){
             return;
         }
 
-        // dispatcj the action
+        // dispatch the action
+        const res = await dispatch(register(formValues));
 
-        navigate("/");
-
+        if(res?.payload?.success){
+            navigate("/");
+        }
+        
         setFormValues({
             username: "",
             email: "",
