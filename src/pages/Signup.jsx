@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import {validateEmail, validatePassword, validateUsername} from "../helpers/index";
 import toast from "react-hot-toast";
-
+import { register } from "../Redux/Slices/AuthSlice";
 
 
 
