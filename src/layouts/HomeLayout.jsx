@@ -14,7 +14,7 @@ function HomeLayout({ children }) {
 
     const {role, isLoggedIn} = useSelector((state) => state?.auth);
 
-    console.log("isLoggedIn", isLoggedIn)
+    
 
     function toggleDrawer() {
         setIsDrawerOpen(!isDrawerOpen);
@@ -29,8 +29,8 @@ function HomeLayout({ children }) {
     }
 
     return (
-        <div className="min-h-[90vh]">
-            <div className="drawer absolute left-0 z-50">
+        <div className="min-h-[90vh] w-screen relative">
+            <div className="drawer w-fit absolute left-0 z-50">
                 <input
                     id="my-drawer"
                     type="checkbox"
@@ -90,13 +90,13 @@ function HomeLayout({ children }) {
                         <div className="w-1/2 absolute top-48 left-6 flex flex-col gap-6">
                         <Button 
                             text="Log in" 
-                            className="btn bg-sky-800 hover:bg-sky-900 text-white text-lg"
+                            className="btn bg-sky-800 hover:bg-sky-900 text-white text-lg font-nunito"
                             onClick={()=> navigate('/login')}
                             />
                         <Button 
-                            text="Sign in" 
-                            className="btn bg-yellow-700 hover:bg-yellow-800 text-white text-lg" 
-                            onClick={()=>navigate('/signin')}
+                            text="Sign up" 
+                            className="btn bg-yellow-700 hover:bg-yellow-800 text-white text-lg font-nunito" 
+                            onClick={()=>navigate('/signup')}
                             /> 
                     </div>
                     }
@@ -107,12 +107,12 @@ function HomeLayout({ children }) {
                         <div className="w-1/2 absolute top-48 left-6 flex flex-col gap-6">
                         <Button 
                             text="Profile" 
-                            className="btn bg-sky-800 hover:bg-sky-900 text-white text-lg"
+                            className="btn bg-sky-800 hover:bg-sky-900 text-white text-lg font-nunito"
                             onClick={()=> navigate("/user/profile")}
                             />
                         <Button 
                             text="Logout" 
-                            className="btn bg-yellow-700 hover:bg-yellow-800 text-white text-lg" 
+                            className="btn bg-yellow-700 hover:bg-yellow-800 text-white text-lg font-nunito" 
                             onClick={handleLogout}
                             /> 
                     </div>
