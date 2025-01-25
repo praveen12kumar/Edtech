@@ -7,3 +7,8 @@ body{
   margin: auto;
   position: relative;
 }
+
+
+.custom-gradient-green {
+  @apply bg-gradient-to-b from-[#4C6A62]  via-[#384F4A] to-[#263733];
+}
