@@ -78,10 +78,10 @@ function HomeLayout({ children }) {
                             )
                         }
                         <li className="hover:text-white">
-                            <Link to="/">All courses</Link>
+                            <Link to="/courses">All courses</Link>
                         </li>
                         <li className="hover:text-white">
-                            <Link to="/">Contact Us</Link>
+                            <Link to="/contact">Contact Us</Link>
                         </li>
                         <li className="hover:text-white">
                             <Link to="/about">About Us</Link>
