@@ -7,10 +7,12 @@ import AboutUs from './pages/AboutUs'
 import NotFound from "./pages/NotFound";
 import Signup from './pages/Signup';
 import Login from './pages/Login';
-import Courses from './pages/Courses';
+import Courses from './pages/course/Courses';
 import ContactUs from './pages/ContactUs';
 import Denied from './pages/Denied';
-import CourseDescription from './pages/CourseDescription';
+import CourseDescription from './pages/course/CourseDescription';
+import RequireAuth from './Auth/RequireAuth';
+import CreateCourse from './pages/course/CreateCourse';
 
 function App() {
 
@@ -28,6 +30,13 @@ function App() {
 
         <Route path='/course/description' element={<CourseDescription/>}/>
         <Route path="*" element={<NotFound/>}/>
+
+      //-------------Admin-----------------------
+        <Route element={<RequireAuth allowedRoles={['ADMIN']}/>}>
+            <Route path='/course/create' element={<CreateCourse/>}/>
+        </Route>
+
+
       </Routes>
 
       

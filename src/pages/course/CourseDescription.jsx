@@ -1,6 +1,6 @@
 
 import { useLocation } from "react-router-dom";
-import HomeLayout from "../layouts/HomeLayout";
+import HomeLayout from "../../layouts/HomeLayout";
 import { useSelector } from "react-redux";
 function CourseDescription(){
     const {state} = useLocation();

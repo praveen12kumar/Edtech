@@ -1,8 +1,8 @@
 import { useDispatch } from "react-redux";
-import { getAllCourses } from "../Redux/Slices/CourseSlice";
+import { getAllCourses } from "../../Redux/Slices/CourseSlice";
 import { useEffect } from "react";
-import HomeLayout from "../layouts/HomeLayout";
-import CourseCard from "../components/molecules/CourseCard";
+import HomeLayout from "../../layouts/HomeLayout";
+import CourseCard from "../../components/molecules/CourseCard";
 
 
 function Course(){

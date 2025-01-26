@@ -25,14 +25,46 @@ export const getAllCourses = createAsyncThunk('course/getAllCourses', async (_, 
     }
 })
 
+
+export const createNewCourse = createAsyncThunk('course/createNewCourse', async(data, { rejectWithValue }) => {
+    try {
+        let formData = new FormData();
+        formData.append("title", data.title);
+        formData.append("category", data.category);
+        formData.append("createdBy", data.createdBy);
+        formData.append("description", data.description);
+        formData.append("thumbnail", data.thumbnail);
+
+        const response = axiosInstance.post("/courses", formData);
+
+        toast.promise(response, {
+            loading: "Wait! creating a new course",
+            success: "Successfully created a new course",
+            error: "Failed to create a new course"
+        })
+
+        return (await response).data;
+    }
+    catch(error){
+        toast.error(error?.response?.data?.message);
+        rejectWithValue(error?.response?.data?.message);
+    }
+})
+
+
+
 const courseSlice = createSlice({   
     name: "courses",
     initialState,
     reducers:{},
     extraReducers: (builder) => {
-        builder.addCase("getCourses.fulfilled", (state, action) => {
+        builder
+        .addCase("getCourses.fulfilled", (state, action) => {
             state.courseData = [...action.payload];
-        });
+        })
+
+        
+
     }
 })
 
