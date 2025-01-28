@@ -18,7 +18,8 @@ import EditProfile from './pages/user/EditProfile';
 import Checkout from './pages/payment/Checkout';
 import CheckoutFailure from './pages/payment/ChekoutFailure';
 import CheckoutSuccess from './pages/payment/CheckoutSuccess';
-
+import DisplayLectures from './pages/dashboard/DisplayLecture';
+import AddLecture from './pages/dashboard/AddLecture';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
       //-------------Admin-----------------------
         <Route element={<RequireAuth allowedRoles={['ADMIN']}/>}>
             <Route path='/course/create' element={<CreateCourse/>}/>
+            <Route path='/course/addlecture' element={<AddLecture/>}/>
         </Route>
 
         {/* <Route element={<RequireAuth allowedRoles={['ADMIN','USER']}/>}>
@@ -48,13 +50,16 @@ function App() {
           <Route path='/checkout' element={<Checkout/>}/>
           <Route path='/checkout/success' element={<CheckoutSuccess/>}/>
           <Route path='/checkout/fail' element={<CheckoutFailure/>}/>
+          <Route path="/course/displaylecture" element={<DisplayLectures/>}/>
         </Route> */}
 
         <Route path='/user/profile' element={<Profile/>}/>
         <Route path='/user/edit-profile' element={<EditProfile/>}/>
         <Route path='/checkout' element={<Checkout/>}/>
         <Route path='/checkout/success' element={<CheckoutSuccess/>}/>
-          <Route path='/checkout/failure' element={<CheckoutFailure/>}/>
+        <Route path='/checkout/failure' element={<CheckoutFailure/>}/>
+        <Route path="/course/displaylectures" element={<DisplayLectures/>}/>
+        <Route path='/course/addlecture' element={<AddLecture/>}/>
 
       </Routes>
 

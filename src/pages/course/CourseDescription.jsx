@@ -41,11 +41,12 @@ function CourseDescription(){
                         </div>
 
                         {
-                            role === "ADMIN" || data?.subscription?.status === "ACTIVE" ?
+                            role === "ADMIN" || data?.subscription?.status === "active" ?
                                 <Button
                                     type="button"
                                     text="Watch lectures"
                                     className={"bg-yellow-500 text-xl text-white rounded-md font-bold px-5 py-2 w-full hover:bg-yellow-700 transition-all ease-in-out duration-300"}
+                                    onClick={() => navigate(`/course/displaylectures`, {state:{...state}})}
                                 />
                                 :
                                 <Button
