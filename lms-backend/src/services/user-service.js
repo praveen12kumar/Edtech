@@ -1,7 +1,9 @@
-import bcrypt from "bcryptjs";
+
 import { UserRepository } from "../repository/index.js";
 import uploadOnCloudinary from "../config/cloudinary-config.js";
 import {sendVerificationEmail, sendWelcomeEmail, sendPasswordResetEmail } from "../nodemailer/email.js"
+import ErrorHandler from "../utils/errorHandler.js";
+
 
 class UserService{
 
@@ -14,18 +16,18 @@ class UserService{
         // Check if the user already exists
         const existingUser = await this.userRepository.findByEmail(email);
         if (existingUser) {
-            throw new Error("User already exists");
+            throw new ErrorHandler("User already exists", 409);
         }
 
         // Validate file type (image)
         if (!localFilePath || !localFilePath.match(/\.(jpg|jpeg|png)$/)) {
-            throw new Error("Invalid file type. Only JPG, JPEG, and PNG files are allowed.");
+            throw new ErrorHandler("Invalid file type. Only JPG, JPEG, and PNG files are allowed.", 415);
         }
 
         // Upload profile image to Cloudinary
         const result = await uploadOnCloudinary(localFilePath, "profile");
         if (!result) {
-            throw new Error("Profile picture upload failed");
+            throw new ErrorHandler("Profile picture upload failed", 503);
         }
 
         // Create new user in the database
@@ -58,14 +60,14 @@ class UserService{
         const user = await this.userRepository.findByEmail(email);
         //console.log("user", user);
         if(!user){
-            throw new Error("User does not exist");
+            throw new ErrorHandler("User not found", 404);
         }
 
         const isValidPassword = await user.comparePassword(password);
         //console.log("isValidPassword", isValidPassword);
 
         if(!isValidPassword){
-            throw new Error("Invalid password");
+            throw new Error("Invalid password", 401);
         }
 
         const token = await user.generateToken();
@@ -80,7 +82,7 @@ class UserService{
     async getProfile(userId) {
         const user = await this.userRepository.get(userId);
         if(!user){
-            throw new Error("User does not exist");
+            throw new ErrorHandler("User not found", 404);
         }
         return user;
     }
@@ -92,7 +94,7 @@ class UserService{
             const user = await this.userRepository.findUserByToken(otp);
             //console.log("user", user);
             if(!user){
-                throw new Error("Invalid OTP");
+                throw new ErrorHandler("Invalid OTP", 404);
             }
 
             user.isVerified = true;
@@ -109,14 +111,15 @@ class UserService{
 
     async changeUserPassword(userId, oldPassword, newPassword){
         const user = await this.userRepository.get(userId);
-        console.log("user aa gye", user);
+       
+
         if(!user){
-            throw new Error("User not found");
+            throw new ErrorHandler("User not found", 404);
         }
 
         const isValidPassword = await user.comparePassword(oldPassword);
         if(!isValidPassword){
-            throw new Error("Invalid password");
+            throw new ErrorHandler("Invalid password", 401);
         }
 
         user.password = newPassword;
@@ -127,9 +130,11 @@ class UserService{
 
     async forgotUserPassword(email){
         const user = await this.userRepository.findByEmail(email);
+        
         if(!user){
-            throw new Error("User not found");
+            throw new ErrorHandler("User not found", 404);
         }
+        
         user.generateOTP();
         await user.save();
 
@@ -144,7 +149,7 @@ class UserService{
         const user = await this.userRepository.findByEmail(email);
 
         if(!user){
-            throw new Error("User not found");
+            throw new ErrorHandler("User not found", 404);
         }
         if(!user.verifyPasswordOTPExpiry > Date.now() || user.verifyPasswordOTP !== otp){
             throw new Error("invalid verification code");

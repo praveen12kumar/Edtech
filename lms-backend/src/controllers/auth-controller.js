@@ -1,181 +1,104 @@
 import { UserService } from "../services/index.js";
 import { NODE_ENV } from "../config/config.js";
-
+import ErrorHandler from "../utils/errorHandler.js";
+import { catchAsyncError } from "../middlewares/catchAsyncError.js";
 
 const userService = new UserService();
+
 const cookieOptions = {
-    maxAge: 7 * 24 * 60 * 60 * 1000,
-    httpOnly: true,
-    secure: NODE_ENV == "production"
-}
+    maxAge: 7 * 24 * 60 * 60 * 1000,  // 7 days
+    httpOnly: true,                  // Prevents client-side JS from accessing the cookie
+    secure: NODE_ENV === "production", // Only send cookie over HTTPS in production
+    sameSite: "Lax"                  // Helps protect against CSRF
+};
 
-
-
-//Validate user input (fullName, email, password).
-//Check if the email already exists in the database.
-//Hash the password using bcrypt.
-//Upload the profile picture to Cloudinary.
-//Save user details in the database.
-//Generate a JWT token and send it in a cookie response.
-
-
-export const signUp = async(req, res)=>{    
-    
-    const {username, email, password} = req.body;
-    //console.log("req.file", req.body);
+// ✅ Sign up a new user
+// Steps:
+// 1. Validate user input (username, email, password).
+// 2. Check if the email already exists in the database (handled in service).
+// 3. Hash the password using bcrypt (handled in service).
+// 4. Upload the profile picture to Cloudinary (handled in service).
+// 5. Save user details in the database.
+// 6. Generate a JWT token and send it in a cookie.
+export const signUp = catchAsyncError(async (req, res, next) => {
+    const { username, email, password } = req.body;
     const localImagePath = req?.file?.path;
-    //console.log("localImagePath", localImagePath);
-    if(!username || !email || !password){
-        return res.status(403).json({
-            success:false,
-            data:{},
-            message:"All fields are required",
-            err:{}
-        })
+
+    if (!username || !email || !password) {
+        return next(new ErrorHandler("All fields are required", 400));
     }
-    try {
-        const response  = await userService.signup(username, email, password, localImagePath);
-        //console.log("response", response);
-        res.cookie("token", response.token, cookieOptions);
 
-        res.status(201).json({
-            success: true,
-            data: response.newUser,
-            message: "User created successfully",
-            err: {}
-        });
-    } 
-    catch (error) {
-        if(error.message == "user already exists") {
-            return res.status(409).json({
-                success: false,
-                data: {},
-                message: "User already exists",
-                err: error.message
-            })
-        }
-        res.status(500).json({
-            success: false,
-            data: {},
-            message: error.message,
-            err: error
-        })
+    const response = await userService.signup(username, email, password, localImagePath);
+
+    res.cookie("token", response.token, cookieOptions);
+
+    res.status(201).json({
+        success: true,
+        data: response.user,
+        message: "User created successfully",
+        err: {}
+    });
+});
+
+// ✅ Log in an existing user
+// Steps:
+// 1. Validate user credentials (email & password).
+// 2. Find the user by email in the database.
+// 3. Compare passwords using bcrypt.compare().
+// 4. Generate a JWT token if credentials are valid.
+// 5. Store the token in a cookie and return user details.
+export const signIn = catchAsyncError(async (req, res, next) => {
+    const { email, password } = req.body;
+
+    if (!email || !password) {
+        return next(new ErrorHandler("All fields are required", 400));
     }
-}
 
-// Validate user credentials (email & password).
-// Find the user by email in the database.
-// Compare passwords using bcrypt.compare().
-// Generate a JWT token if credentials are valid.
-// Store the token in a cookie and return user details.
+    const response = await userService.signIn(email, password);
 
+    res.cookie("token", response.token, cookieOptions);
 
-export const signIn = async(req, res)=>{
-    const {email, password} = req.body;
-    //console.log(email, password);
+    res.status(200).json({
+        success: true,
+        data: response.user,
+        message: "User logged in successfully",
+        err: {}
+    });
+});
 
-    if(!email || !password){
-        return res.status(403).json({
-            success:false,
-            data:{},
-            message:"All fields are required",
-            err:{}
-        })
-    }
-    try {
-        const response = await userService.signIn(email, password);
+// ✅ Log out the user
+// Steps:
+// 1. Clear the authentication cookie.
+// 2. Return a success message.
+export const logout = catchAsyncError(async (req, res,) => {
+    res.clearCookie("token");
 
-        res.cookie("token", response.token, cookieOptions);
-
-        res.status(200).json({
-            success: true,
-            data: response.user,
-            message: "User logged in successfully",
-            err: {}
-        })
-    } catch (error) {
-        if(error.message == "Invalid password"){
-            return res.status(401).json({
-                success: false,
-                data: {},
-                message: "Invalid password",
-                err: error.message
-            })
-        }
-        if(error.message == "User does not exist") {
-            return res.status(404).json({
-                success: false,
-                data: {},
-                message: "User does not exist",
-                err: error.message
-            })
-        }
-        else{
-        res.status(500).json({
-            success: false,
-            data: {},
-            message: "Something went wrong",
-            err: error.message
-            })
-        }
-    }
-}
-
-
-// logout
-// clear the cookie
-// return success message
-
-
-export const logout = async(req, res)=>{
-    try {
-        res.clearCookie("token");
-        res.status(200).json({
+    res.status(200).json({
         success: true,
         data: {},
         message: "User logged out successfully",
         err: {}
-    })
-    } catch (error) {
-        res.status(500).json({
-            success:false,
-            data:{},
-            message:"Something went wrong",
-            err:error.message
-        })
-    }
-}
+    });
+});
 
+// ✅ Verify user email
+// Steps:
+// 1. Take the code from request body.
+// 2. Call the service to validate and mark email as verified.
+// 3. Return success or error response.
+export const verifyEmail = catchAsyncError(async (req, res, next) => {
+    const { code } = req.body;
 
-// verify email
-export const verifyEmail = async(req, res)=>{
-    const {code} = req.body;
-    //console.log("code", code);
-    try{
-        const response = await userService.verifyUserEmail(code);
-        return res.status(200).json({
-            success: true,
-            data: response,
-            message: "Email verified successfully",
-            err: {}
-        })
+    if (!code) {
+        return next(new ErrorHandler("Verification code is required", 400));
     }
-    catch(error){
-        if(error.message === "invalid verification code"){
-            return res.status(400).json({
-            success: false,
-            data: {},
-            message: "invalid verification code",
-            err: error.message
-            })
-        }
-        else{
-        return res.status(500).json({
-            success: false,
-            data: {},
-            message: "Something went wrong",
-            err: error
-       })
-    }
-    }
-}
+
+    const response = await userService.verifyUserEmail(code);
+
+    res.status(200).json({
+        success: true,
+        data: response,
+        message: "Email verified successfully",
+        err: {}
+    });
+});

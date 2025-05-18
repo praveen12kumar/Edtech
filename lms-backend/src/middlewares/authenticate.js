@@ -1,38 +1,23 @@
 import jwt from 'jsonwebtoken';
 import { JWT_SECRET } from '../config/config.js';
+import ErrorHandler from '../utils/errorHandler.js';
 
 export const authenticate = (req, res, next)=>{
     try {
         const {token} = req.cookies;
 
         if(!token){
-            return res.status(403).json({
-                success: false,
-                data: {},
-                message: "Unauthenticated user, Token missing",
-                err: {}
-            })
+            return next(new ErrorHandler("Invalid token", 401));
         }
         const user = jwt.verify(token, JWT_SECRET );
 
         if(!user){
-            return res.status(401).json({
-                success: false,
-                data: {},
-                message: "Invalid token",
-                err: {}
-            })
+            return next(new ErrorHandler("Invalid user", 401));
         }
-
         req.user = user;
         next();
 
     } catch (error) {
-        return res.status(401).json({
-            success: false,
-            data: {},
-            message: "Something went wrong",
-            err: error.message
-        })
+        return next(new ErrorHandler("Something went wrong", 500));
     }
 }

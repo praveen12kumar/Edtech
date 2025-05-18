@@ -1,0 +1,395 @@
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signup","status":"500","responseTime":"101.812"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signup","status":"500","responseTime":"116.286"}
+[31merror[39m: POST /api/v1/user/signup - User already exists - 409
+[31merror[39m: Error: 409
+    at UserService.signup (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/user-service.js:18:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/auth-controller.js:31:22
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signup","status":"500","responseTime":"120.626"}
+[31merror[39m: POST /api/v1/user/signup - 409 - User already exists
+[31merror[39m: Error: User already exists
+    at UserService.signup (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/user-service.js:18:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/auth-controller.js:31:22
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signup","status":"409","responseTime":"112.214"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"401","responseTime":"12.894"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"401","responseTime":"3.574"}
+[31merror[39m: POST /api/v1/user/logout - 403 - invalid csrf token
+[31merror[39m: ForbiddenError: invalid csrf token
+    at csrf (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:527:6)
+    at xXssProtectionMiddleware (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:307:3)
+    at internalNext (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:525:6)
+    at xPoweredByMiddleware (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:300:3)
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/logout","status":"403","responseTime":"3.261"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/user/signin","status":"204","responseTime":"0.921"}
+[31merror[39m: POST /api/v1/user/signin - 403 - invalid csrf token
+[31merror[39m: ForbiddenError: invalid csrf token
+    at csrf (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:527:6)
+    at xXssProtectionMiddleware (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:307:3)
+    at internalNext (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:525:6)
+    at xPoweredByMiddleware (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:300:3)
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"403","responseTime":"22.658"}
+[31merror[39m: POST /api/v1/user/signin - 403 - invalid csrf token
+[31merror[39m: ForbiddenError: invalid csrf token
+    at csrf (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\csurf\index.js:112:19)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:527:6)
+    at xXssProtectionMiddleware (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:307:3)
+    at internalNext (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:525:6)
+    at xPoweredByMiddleware (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/node_modules/helmet/index.mjs:300:3)
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"403","responseTime":"2.413"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"181.765"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/user/signin","status":"204","responseTime":"0.564"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"173.749"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"200","responseTime":"78.255"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course","status":"404","responseTime":"1.348"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course","status":"404","responseTime":"1.296"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course","status":"404","responseTime":"1.446"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"201","responseTime":"3209.639"}
+[32minfo[39m: Topic created: {
+  title: 'HTML: The essentials',
+  lectures: [],
+  courseId: new ObjectId('68289503ffdb0e4260ed2bca'),
+  numOfLectures: 0,
+  _id: new ObjectId('682898143d05ce0f03ce0942'),
+  createdAt: 2025-05-17T14:07:16.182Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"219.804"}
+[31merror[39m: POST /api/v1/topic/create - 403 - Only admin can access this route
+[31merror[39m: Error: Only admin can access this route
+    at authorizeAdmin (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authorizeAdmin.js:8:26)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"403","responseTime":"119.491"}
+[31merror[39m: POST /api/v1/topic/create - 403 - Only admin can access this route
+[31merror[39m: Error: Only admin can access this route
+    at authorizeAdmin (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authorizeAdmin.js:8:26)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"403","responseTime":"3.900"}
+[31merror[39m: POST /api/v1/topic/create - 403 - Only admin can access this route
+[31merror[39m: Error: Only admin can access this route
+    at authorizeAdmin (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authorizeAdmin.js:8:26)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"403","responseTime":"3.534"}
+[31merror[39m: POST /api/v1/topic/create - 403 - Only admin can access this route
+[31merror[39m: Error: Only admin can access this route
+    at authorizeAdmin (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authorizeAdmin.js:8:26)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"403","responseTime":"3.527"}
+[31merror[39m: POST /api/v1/topic/create - 403 - Only admin can access this route
+[31merror[39m: Error: Only admin can access this route
+    at authorizeAdmin (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authorizeAdmin.js:8:26)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"403","responseTime":"20.231"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"213.761"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Topic created: {
+  title: 'HTML: Dive Deeper and Sementics',
+  lectures: [],
+  courseId: new ObjectId('68289503ffdb0e4260ed2bca'),
+  numOfLectures: 0,
+  _id: new ObjectId('682968ce460dc39391f3eda1'),
+  createdAt: 2025-05-18T04:57:50.785Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"251.072"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/courses","status":"404","responseTime":"6.955"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"200","responseTime":"77.288"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"201","responseTime":"2387.282"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"200","responseTime":"97.725"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"200","responseTime":"181.166"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"278.421"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"200","responseTime":"63.497"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"200","responseTime":"163.251"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"250.084"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"205.214"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"229.085"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"298.701"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"237.946"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/xkrei5tveoejm1zx5wmu',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747490053/images/xkrei5tveoejm1zx5wmu.webp'
+  },
+  _id: new ObjectId('68289503ffdb0e4260ed2bca'),
+  title: 'Full-Stack Development',
+  description: 'Learn Full-stack dev from begining to Advance from the best',
+  topics: [ new ObjectId('6829985d1cfc196eb88762d0') ],
+  price: 10000,
+  discount: 0,
+  createdAt: 2025-05-17T13:54:11.746Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"252.762"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Creating topic: [object Object]
+[31merror[39m: POST /api/v1/topic/create - 500 - Cannot destructure property 'Symbol(Symbol.iterator)' of 'data' as it is undefined.
+[31merror[39m: TypeError: Cannot destructure property 'Symbol(Symbol.iterator)' of 'data' as it is undefined.
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:20:34)
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:12:45
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/catchAsyncError.js:2:21
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authorizeAdmin (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authorizeAdmin.js:12:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"36.469"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/xkrei5tveoejm1zx5wmu',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747490053/images/xkrei5tveoejm1zx5wmu.webp'
+  },
+  _id: new ObjectId('68289503ffdb0e4260ed2bca'),
+  title: 'Full-Stack Development',
+  description: 'Learn Full-stack dev from begining to Advance from the best',
+  topics: [ new ObjectId('68299bd66c8ce10428604854') ],
+  price: 10000,
+  discount: 0,
+  createdAt: 2025-05-17T13:54:11.746Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"360.958"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/azgdix2iulvmblo03ri2',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747546502/images/azgdix2iulvmblo03ri2.png'
+  },
+  _id: new ObjectId('682971851ca53b69e850ac08'),
+  title: 'Advanced Frontend Dev with React',
+  description: 'Learn beginner to advanced Frontend dev with React. js.',
+  topics: [ new ObjectId('68299c066c8ce10428604859') ],
+  price: 70000,
+  discount: 0,
+  createdAt: 2025-05-18T05:35:01.456Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"311.567"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/azgdix2iulvmblo03ri2',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747546502/images/azgdix2iulvmblo03ri2.png'
+  },
+  _id: new ObjectId('682971851ca53b69e850ac08'),
+  title: 'Advanced Frontend Dev with React',
+  description: 'Learn beginner to advanced Frontend dev with React. js.',
+  topics: [
+    new ObjectId('68299c066c8ce10428604859'),
+    new ObjectId('68299bd66c8ce10428604854')
+  ],
+  price: 70000,
+  discount: 0,
+  createdAt: 2025-05-18T05:35:01.456Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"328.423"}
+[32minfo[39m: User role: ADMIN
+[31merror[39m: POST /api/v1/topic/create - 500 - Class constructor ErrorHandler cannot be invoked without 'new'
+[31merror[39m: TypeError: Class constructor ErrorHandler cannot be invoked without 'new'
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:43:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:12:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"280.956"}
+[32minfo[39m: User role: ADMIN
+[31merror[39m: POST /api/v1/topic/create - 500 - TypeError: Cannot read properties of undefined (reading 'includes')
+[31merror[39m: Error: TypeError: Cannot read properties of undefined (reading 'includes')
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:43:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:12:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"170.760"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/azgdix2iulvmblo03ri2',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747546502/images/azgdix2iulvmblo03ri2.png'
+  },
+  _id: new ObjectId('682971851ca53b69e850ac08'),
+  title: 'Advanced Frontend Dev with React',
+  description: 'Learn beginner to advanced Frontend dev with React. js.',
+  topics: [
+    new ObjectId('68299bd66c8ce10428604854'),
+    new ObjectId('68299f095f1cf6694b93cf53')
+  ],
+  price: 70000,
+  discount: 0,
+  createdAt: 2025-05-18T05:35:01.456Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"306.324"}
+[32minfo[39m: User role: ADMIN
+[31merror[39m: POST /api/v1/topic/create - 500 - TypeError: Assignment to constant variable.
+[31merror[39m: Error: TypeError: Assignment to constant variable.
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:43:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:12:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"274.135"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/azgdix2iulvmblo03ri2',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747546502/images/azgdix2iulvmblo03ri2.png'
+  },
+  _id: new ObjectId('682971851ca53b69e850ac08'),
+  title: 'Advanced Frontend Dev with React',
+  description: 'Learn beginner to advanced Frontend dev with React. js.',
+  topics: [
+    new ObjectId('68299bd66c8ce10428604854'),
+    new ObjectId('68299f095f1cf6694b93cf53'),
+    new ObjectId('68299f966017b7432d5f185a')
+  ],
+  price: 70000,
+  discount: 0,
+  createdAt: 2025-05-18T05:35:01.456Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"338.424"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/xkrei5tveoejm1zx5wmu',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747490053/images/xkrei5tveoejm1zx5wmu.webp'
+  },
+  _id: new ObjectId('68289503ffdb0e4260ed2bca'),
+  title: 'Full-Stack Development',
+  description: 'Learn Full-stack dev from begining to Advance from the best',
+  topics: [
+    new ObjectId('68299bd66c8ce10428604854'),
+    new ObjectId('68299f966017b7432d5f185a')
+  ],
+  price: 10000,
+  discount: 0,
+  createdAt: 2025-05-17T13:54:11.746Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"272.082"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Course updated: {
+  thumbnail: {
+    public_id: 'images/xkrei5tveoejm1zx5wmu',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747490053/images/xkrei5tveoejm1zx5wmu.webp'
+  },
+  _id: new ObjectId('68289503ffdb0e4260ed2bca'),
+  title: 'Full-Stack Development',
+  description: 'Learn Full-stack dev from begining to Advance from the best',
+  topics: [
+    new ObjectId('68299bd66c8ce10428604854'),
+    new ObjectId('68299f966017b7432d5f185a')
+  ],
+  price: 10000,
+  discount: 0,
+  createdAt: 2025-05-17T13:54:11.746Z,
+  __v: 0
+}
+[32minfo[39m: Lecture added to course: {
+  thumbnail: {
+    public_id: 'images/xkrei5tveoejm1zx5wmu',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747490053/images/xkrei5tveoejm1zx5wmu.webp'
+  },
+  _id: new ObjectId('68289503ffdb0e4260ed2bca'),
+  title: 'Full-Stack Development with MERN',
+  description: 'Learn Full-stack dev from begining to Advance from the best',
+  topics: [
+    new ObjectId('68299bd66c8ce10428604854'),
+    new ObjectId('68299f966017b7432d5f185a')
+  ],
+  price: 10000,
+  discount: 0,
+  createdAt: 2025-05-17T13:54:11.746Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"200","responseTime":"210.933"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: Course updated: {
+  thumbnail: {
+    public_id: 'images/xkrei5tveoejm1zx5wmu',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747490053/images/xkrei5tveoejm1zx5wmu.webp'
+  },
+  _id: new ObjectId('68289503ffdb0e4260ed2bca'),
+  title: 'Full-Stack Development with MERN',
+  description: 'Learn Full-stack dev from begining to Advance from the best',
+  topics: [
+    new ObjectId('68299bd66c8ce10428604854'),
+    new ObjectId('68299f966017b7432d5f185a')
+  ],
+  price: 10000,
+  discount: 0,
+  createdAt: 2025-05-17T13:54:11.746Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"200","responseTime":"176.789"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"200","responseTime":"2920.415"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"200","responseTime":"4786.164"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"200","responseTime":"2995.200"}
+[32minfo[39m: User role: ADMIN
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/course/682971851ca53b69e850ac08","status":"200","responseTime":"1811.607"}
