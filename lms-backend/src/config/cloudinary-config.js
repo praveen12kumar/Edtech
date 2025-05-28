@@ -9,6 +9,9 @@ cloudinary.config({
 
 const uploadOnCloudinary = async (localFilePath, fileType="image")=>{
     try {
+
+        console.log("localFilePath", localFilePath);
+
         if(!localFilePath){
             throw new Error("File not found");
         }

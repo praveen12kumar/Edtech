@@ -23,16 +23,7 @@ const lectureSchema = new Schema({
             required: true,
             trim: true
         }
-    },    
-    topicId: {
-        type: Schema.Types.ObjectId,
-        ref: 'Topic',
-        required: true
     },
-    createdAt:{
-        type: Date,
-        default: Date.now
-    }
 }, {
     timestamps: true
 });

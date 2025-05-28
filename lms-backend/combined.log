@@ -393,3 +393,460 @@
 [32minfo[39m: {"method":"DELETE","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"200","responseTime":"2995.200"}
 [32minfo[39m: User role: ADMIN
 [32minfo[39m: {"method":"DELETE","url":"/api/v1/course/682971851ca53b69e850ac08","status":"200","responseTime":"1811.607"}
+[31merror[39m: POST /api/v1/course/create - 500 - Something went wrong
+[31merror[39m: Error: Something went wrong
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:21:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:47:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"500","responseTime":"26.684"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"208.228"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"201","responseTime":"4472.827"}
+[31merror[39m: PUT /api/v1/course/68289503ffdb0e4260ed2bca - 500 - Unable to update course
+[31merror[39m: Error: Unable to update course
+    at CourseService.updateCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/course-service.js:110:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/course-controller.js:71:22
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/68289503ffdb0e4260ed2bca","status":"500","responseTime":"71.620"}
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/682aed458c0acb61e8b46c95","status":"200","responseTime":"161.424"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"201","responseTime":"4351.682"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"201","responseTime":"2825.466"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"200","responseTime":"82.971"}
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/liqiddw09ejn3o9cmsm9',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747643720/images/liqiddw09ejn3o9cmsm9.png'
+  },
+  _id: new ObjectId('682aed458c0acb61e8b46c95'),
+  title: 'Advanced Frontend Dev with React',
+  description: 'Learn beginner to advanced Frontend dev with React. js.',
+  topics: [ new ObjectId('682af208e86b4e368a486c73') ],
+  price: 7000,
+  discount: 0,
+  createdAt: 2025-05-19T08:35:17.735Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"373.650"}
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/liqiddw09ejn3o9cmsm9',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747643720/images/liqiddw09ejn3o9cmsm9.png'
+  },
+  _id: new ObjectId('682aed458c0acb61e8b46c95'),
+  title: 'Advanced Frontend Dev with React',
+  description: 'Learn beginner to advanced Frontend dev with React. js.',
+  topics: [
+    new ObjectId('682af208e86b4e368a486c73'),
+    new ObjectId('682af214e86b4e368a486c78')
+  ],
+  price: 7000,
+  discount: 0,
+  createdAt: 2025-05-19T08:35:17.735Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"276.791"}
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/liqiddw09ejn3o9cmsm9',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747643720/images/liqiddw09ejn3o9cmsm9.png'
+  },
+  _id: new ObjectId('682aed458c0acb61e8b46c95'),
+  title: 'Advanced Frontend Dev with React',
+  description: 'Learn beginner to advanced Frontend dev with React. js.',
+  topics: [
+    new ObjectId('682af208e86b4e368a486c73'),
+    new ObjectId('682af214e86b4e368a486c78'),
+    new ObjectId('682af238e86b4e368a486c7d')
+  ],
+  price: 7000,
+  discount: 0,
+  createdAt: 2025-05-19T08:35:17.735Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"280.822"}
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/sj1d81ju80e4qqmigjmd',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747644771/images/sj1d81ju80e4qqmigjmd.jpg'
+  },
+  _id: new ObjectId('682af160e86b4e368a486c6e'),
+  title: 'Full Stack Development with MERN',
+  description: 'Learn a beginner to advanced Full Stack Development course.',
+  topics: [ new ObjectId('682af208e86b4e368a486c73') ],
+  price: 10000,
+  discount: 10,
+  createdAt: 2025-05-19T08:52:48.597Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"271.111"}
+[32minfo[39m: Video path: public\uploads\video-1747648570710-56c82b38-fcfe-4f32-a0ca-6ed1f86b2979.mp4
+[31merror[39m: POST /api/v1/lecture/create - 500 - this.lectureRepository.createLectureRepo is not a function
+[31merror[39m: TypeError: this.lectureRepository.createLectureRepo is not a function
+    at LectureService.addLectureService (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/lecture-service.js:19:57)
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/Lecture-controller.js:24:43
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/catchAsyncError.js:2:21
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:47:7)
+    at indicateDone (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:51:68)
+    at Multipart.<anonymous> (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:168:7)
+    at Multipart.emit (node:events:518:28)
+    at emitCloseNT (node:internal/streams/destroy:148:10)
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"500","responseTime":"40.261"}
+[32minfo[39m: Video path: public\uploads\video-1747648608120-ca55da2a-e4c9-4d77-8de9-12f7bca0ce7b.mp4
+[31merror[39m: POST /api/v1/lecture/create - 500 - Lecture validation failed: video.url: Path `video.url` is required., video.public_id: Path `video.public_id` is required.
+[31merror[39m: ValidationError: Lecture validation failed: video.url: Path `video.url` is required., video.public_id: Path `video.public_id` is required.
+    at Document.invalidate (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\mongoose\lib\document.js:3329:32)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\mongoose\lib\document.js:3090:17
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"500","responseTime":"50.497"}
+[32minfo[39m: Video path: public\uploads\video-1747648986676-8bf6d3a4-3733-4e21-8541-312aac338371.mp4
+[32minfo[39m: Yha tak aa gye
+[31merror[39m: POST /api/v1/lecture/create - 403 - Video upload failed
+[31merror[39m: Error: Video upload failed
+    at LectureService.addLectureService (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/lecture-service.js:23:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/Lecture-controller.js:26:22
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"403","responseTime":"4103.866"}
+[32minfo[39m: Video path: public\uploads\video-1747649239235-c77b132d-c1ab-4b86-b9b7-734d02fc8ca5.mp4
+[32minfo[39m: Yha tak aa gye
+[31merror[39m: POST /api/v1/lecture/create - 403 - Video upload failed
+[31merror[39m: Error: Video upload failed
+    at LectureService.addLectureService (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/lecture-service.js:23:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/Lecture-controller.js:26:22
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"403","responseTime":"4121.871"}
+[32minfo[39m: Video path: public\uploads\video-1747650204544-39cbf97c-4780-4f41-95ef-0d18b3574fbd.mp4
+[32minfo[39m: Yha tak aa gye
+[32minfo[39m: Video uploaded to cloudinary: [object Object]
+[31merror[39m: POST /api/v1/lecture/create - 403 - Video upload failed
+[31merror[39m: Error: Video upload failed
+    at LectureService.addLectureService (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/lecture-service.js:27:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/Lecture-controller.js:26:22
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"403","responseTime":"4156.681"}
+[32minfo[39m: Video path: public\uploads\video-1747650507253-3f999b6b-801f-4498-9b8e-a3c86164bf5c.mp4
+[32minfo[39m: Video uploaded to cloudinary: [object Object]
+[31merror[39m: POST /api/v1/lecture/create - 403 - Video upload failed
+[31merror[39m: Error: Video upload failed
+    at LectureService.addLectureService (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/lecture-service.js:27:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/Lecture-controller.js:24:22
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"403","responseTime":"6128.557"}
+[32minfo[39m: Video path: public\uploads\video-1747650761863-fd63201e-4051-412f-84a4-e3933c9ec06b.mp4
+[32minfo[39m: Video uploaded to cloudinary: [object Object]
+[31merror[39m: POST /api/v1/lecture/create - 500 - result is not defined
+[31merror[39m: ReferenceError: result is not defined
+    at LectureService.addLectureService (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/lecture-service.js:40:53)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/Lecture-controller.js:24:22
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"500","responseTime":"4870.904"}
+[32minfo[39m: Video path: public\uploads\video-1747650938997-81f65852-a1e3-4422-aca1-796203e5fb47.mp4
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"5510.347"}
+[32minfo[39m: Video path: public\uploads\video-1747651909034-76fd558a-b445-4b0f-aedd-3c49a3ba3696.mp4
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"7730.409"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/682b0d4c17bfaea6a235057d","status":"404","responseTime":"6.637"}
+[31merror[39m: GET /api/v1/lecture/682b0d4c17bfaea6a235057d - 500 - this.lectureRepository.findById is not a function
+[31merror[39m: TypeError: this.lectureRepository.findById is not a function
+    at LectureService.getLectureDetail (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/lecture-service.js:59:58)
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/Lecture-controller.js:34:43
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/catchAsyncError.js:2:21
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+[32minfo[39m: {"method":"GET","url":"/api/v1/lecture/682b0d4c17bfaea6a235057d","status":"500","responseTime":"10.009"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/lecture/682b0d4c17bfaea6a235057d","status":"200","responseTime":"81.738"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/lecture/682b0d4c17bfaea6a235057d","status":"200","responseTime":"100.267"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/lecture/682b0d4c17bfaea6a235057d","status":"200","responseTime":"133.495"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"5428.247"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"6319.252"}
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/lecture/682b1897a3efcab0cdc36bef","status":"200","responseTime":"3600.374"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"7356.230"}
+[32minfo[39m: {"method":"PUT","url":"/api/v1/lecture/682b270fd2534e2bdb541ed6","status":"200","responseTime":"5554.401"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/682aed458c0acb61e8b46c95","status":"200","responseTime":"196.843"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/682aed458c0acb61e8b46c95","status":"200","responseTime":"313.033"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/682aed458c0acb61e8b46c95","status":"200","responseTime":"357.633"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/682aed458c0acb61e8b46c95/details","status":"200","responseTime":"238.043"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"404","responseTime":"6.204"}
+[31merror[39m: PUT /api/v1/topic/682af208e86b4e368a486c73 - 500 - Something went wrong
+[31merror[39m: Error: Something went wrong
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:21:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:280:10)
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"500","responseTime":"18.823"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"213.504"}
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"143.905"}
+[32minfo[39m: Topic updated: undefined
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"182.443"}
+[32minfo[39m: Topic updated: undefined
+[32minfo[39m: Topic updated: undefined
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"192.249"}
+[32minfo[39m: body, [object Object]
+[32minfo[39m: Topic title: undefined
+[32minfo[39m: Topic updated: undefined
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"227.566"}
+[32minfo[39m: body, [object Object]
+[32minfo[39m: Topic title: HTML: The Essentials
+[32minfo[39m: Topic updated: HTML: The Essentials
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"218.046"}
+[32minfo[39m: body, [object Object]
+[32minfo[39m: Topic title: 682af208e86b4e368a486c73, HTML: The Essentials
+[32minfo[39m: Topic updated: HTML: The Essentials
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"185.771"}
+[32minfo[39m: body: {"title":"HTML: The Essentials","courseId":"682af160e86b4e368a486c6e"}
+[32minfo[39m: Topic update request - ID: 682af208e86b4e368a486c73, Title: HTML: The Essentials
+[32minfo[39m: Topic updated: HTML: The Essentials
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"157.363"}
+[32minfo[39m: body: {"title":"HTML: Fundamentals"}
+[32minfo[39m: Topic update request - ID: 682af208e86b4e368a486c73, Title: HTML: Fundamentals
+[32minfo[39m: Topic updated: HTML: Fundamentals
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"233.987"}
+[32minfo[39m: Topic updated: HTML: Fundamentals
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/682af208e86b4e368a486c73","status":"200","responseTime":"171.864"}
+[31merror[39m: POST /api/v1/topic/create - 500 - First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+[31merror[39m: Error: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:41:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:14:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"213.429"}
+[31merror[39m: POST /api/v1/topic/create - 500 - First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+[31merror[39m: Error: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:41:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:14:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"207.329"}
+[32minfo[39m: Creating topic: HTML: Advanced Concepts 682aed458c0acb61e8b46c95
+[31merror[39m: POST /api/v1/topic/create - 500 - First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+[31merror[39m: Error: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:42:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:14:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"188.743"}
+[31merror[39m: POST /api/v1/topic/create - 500 - First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+[31merror[39m: Error: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:14:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"186.819"}
+[31merror[39m: POST /api/v1/topic/create - 500 - First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+[31merror[39m: Error: First argument to `Model` constructor must be an object, **not** a string. Make sure you're calling `mongoose.model()`, not `mongoose.Model()`.
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:14:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"190.715"}
+[32minfo[39m: Topic created: {
+  title: 'HTML: Advanced Concepts',
+  lectures: [],
+  courseId: new ObjectId('682aed458c0acb61e8b46c95'),
+  numOfLectures: 0,
+  _id: new ObjectId('682db1f898f56ad6c26ce96e'),
+  createdAt: 2025-05-21T10:59:04.322Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"425.547"}
+[32minfo[39m: Topic added to course: {
+  thumbnail: {
+    public_id: 'images/liqiddw09ejn3o9cmsm9',
+    url: 'https://res.cloudinary.com/dir7z9qr8/image/upload/v1747643720/images/liqiddw09ejn3o9cmsm9.png'
+  },
+  _id: new ObjectId('682aed458c0acb61e8b46c95'),
+  title: 'Advanced Frontend Dev with React',
+  description: 'Learn beginner to advanced Frontend dev with React. js.',
+  topics: [
+    new ObjectId('682db1f898f56ad6c26ce96e'),
+    new ObjectId('682db2d267708057198930e8')
+  ],
+  price: 7000,
+  discount: 0,
+  createdAt: 2025-05-19T08:35:17.735Z,
+  __v: 0
+}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"28054.578"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"4718.198"}
+[31merror[39m: POST /api/v1/course/create - 500 - Something went wrong
+[31merror[39m: Error: Something went wrong
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:21:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:47:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"500","responseTime":"21.727"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"811.979"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"201","responseTime":"3523.300"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"201","responseTime":"3753.692"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/create","status":"201","responseTime":"3363.830"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"200","responseTime":"90.206"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/68357d4b0b26d8e152955f9d/details","status":"200","responseTime":"72.045"}
+[31merror[39m: PUT /api/v1/course/682aed458c0acb61e8b46c95 - 500 - Unable to update course
+[31merror[39m: Error: Unable to update course
+    at CourseService.updateCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/course-service.js:130:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/course-controller.js:72:22
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/682aed458c0acb61e8b46c95","status":"500","responseTime":"79.315"}
+[31merror[39m: PUT /api/v1/course/682aed458c0acb61e8b46c95 - 500 - logger is not defined
+[31merror[39m: ReferenceError: logger is not defined
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/course-controller.js:67:5
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/catchAsyncError.js:2:21
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:47:7)
+    at indicateDone (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:51:68)
+    at Multipart.<anonymous> (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:168:7)
+    at Multipart.emit (node:events:518:28)
+    at emitCloseNT (node:internal/streams/destroy:148:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/682aed458c0acb61e8b46c95","status":"500","responseTime":"28.219"}
+[31merror[39m: PUT /api/v1/course/682aed458c0acb61e8b46c95 - 500 - Cannot convert object to primitive value
+[31merror[39m: TypeError: Cannot convert object to primitive value
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/course-controller.js:67:34
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/catchAsyncError.js:2:21
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:47:7)
+    at indicateDone (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:51:68)
+    at Multipart.<anonymous> (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:168:7)
+    at Multipart.emit (node:events:518:28)
+    at emitCloseNT (node:internal/streams/destroy:148:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/682aed458c0acb61e8b46c95","status":"500","responseTime":"17.107"}
+[31merror[39m: PUT /api/v1/course/68357d4b0b26d8e152955f9d - 500 - Cannot convert object to primitive value
+[31merror[39m: TypeError: Cannot convert object to primitive value
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/course-controller.js:67:34
+    at file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/catchAsyncError.js:2:21
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at done (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:47:7)
+    at indicateDone (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:51:68)
+    at Multipart.<anonymous> (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\multer\lib\make-middleware.js:168:7)
+    at Multipart.emit (node:events:518:28)
+    at emitCloseNT (node:internal/streams/destroy:148:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/68357d4b0b26d8e152955f9d","status":"500","responseTime":"4.862"}
+[32minfo[39m: {"method":"PUT","url":"/api/v1/course/68357d4b0b26d8e152955f9d/update","status":"200","responseTime":"205.744"}
+[31merror[39m: POST /api/v1/topic/create - 500 - Course not found
+[31merror[39m: Error: Course not found
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:15:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"131.481"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"320.023"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"291.945"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"310.014"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"285.087"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"328.729"}
+[31merror[39m: POST /api/v1/topic/create - 500 - Course not found
+[31merror[39m: Error: Course not found
+    at TopicService.createTopic (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/services/topic-service.js:44:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/topic-controller.js:15:26
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"500","responseTime":"88.671"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"293.655"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"276.094"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"329.605"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"296.394"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/topic/create","status":"200","responseTime":"295.600"}
+[32minfo[39m: {"method":"PUT","url":"/api/v1/topic/68357f604178a46d77268b96","status":"200","responseTime":"177.010"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"4132.218"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"5226.158"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/68357d4b0b26d8e152955f9d/details","status":"200","responseTime":"235.692"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"5112.541"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"4976.599"}
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"404","responseTime":"18.050"}
+[31merror[39m: DELETE /api/v1/topic/68357f604178a46d77268b96 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"500","responseTime":"113.670"}
+[32minfo[39m: id: 68357f604178a46d77268b96
+[31merror[39m: DELETE /api/v1/topic/68357f604178a46d77268b96 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"500","responseTime":"98.364"}
+[32minfo[39m: id: 68357f604178a46d77268b96
+[32minfo[39m: topic: {
+  _id: new ObjectId('68357f604178a46d77268b96'),
+  title: 'HTML: Fundamentals',
+  courseId: new ObjectId('68357d4b0b26d8e152955f9d'),
+  lectures: [ new ObjectId('683589dafe418aec79552122') ],
+  createdAt: 2025-05-27T09:01:20.338Z,
+  updatedAt: 2025-05-27T09:46:02.994Z,
+  __v: 1
+}
+[31merror[39m: DELETE /api/v1/topic/68357f604178a46d77268b96 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"500","responseTime":"90.959"}
+[32minfo[39m: id: 68357f604178a46d77268b96
+[32minfo[39m: lecture: 683589dafe418aec79552122
+[31merror[39m: DELETE /api/v1/topic/68357f604178a46d77268b96 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"500","responseTime":"102.059"}
+[32minfo[39m: lecture: 683589dafe418aec79552122
+[31merror[39m: DELETE /api/v1/topic/68357f604178a46d77268b96 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"500","responseTime":"111.380"}
+[31merror[39m: DELETE /api/v1/topic/68357f604178a46d77268b96 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"500","responseTime":"100.126"}
+[32minfo[39m: lecture: 683589dafe418aec79552122
+[31merror[39m: DELETE /api/v1/topic/68357f604178a46d77268b96 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"500","responseTime":"100.500"}
+[32minfo[39m: lecture: 683589dafe418aec79552122
+[32minfo[39m: count: 0
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f604178a46d77268b96","status":"200","responseTime":"335.258"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"5316.576"}
+[31merror[39m: DELETE /api/v1/topic/68357f994178a46d77268ba0 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f994178a46d77268ba0","status":"500","responseTime":"68.610"}
+[31merror[39m: DELETE /api/v1/topic/68357f994178a46d77268ba0 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f994178a46d77268ba0","status":"500","responseTime":"111.386"}
+[31merror[39m: DELETE /api/v1/topic/68357f994178a46d77268ba0 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f994178a46d77268ba0","status":"500","responseTime":"82.281"}
+[32minfo[39m: lectureId: 683592a2db7a9404fea6c741
+[31merror[39m: DELETE /api/v1/topic/68357f994178a46d77268ba0 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f994178a46d77268ba0","status":"500","responseTime":"116.885"}
+[32minfo[39m: lectureId: 683592a2db7a9404fea6c741
+[31merror[39m: logger is not a function
+[31merror[39m: DELETE /api/v1/topic/68357f994178a46d77268ba0 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f994178a46d77268ba0","status":"500","responseTime":"99.982"}
+[32minfo[39m: lectureId: 683592a2db7a9404fea6c741
+[31merror[39m: DELETE /api/v1/topic/68357f994178a46d77268ba0 - 500 - Something went wrong
+[31merror[39m: undefined
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f994178a46d77268ba0","status":"500","responseTime":"98.196"}
+[32minfo[39m: lectureId: 683592a2db7a9404fea6c741
+[32minfo[39m: countLecturesInTopic: 683592a2db7a9404fea6c741
+[32minfo[39m: countLecturesInTopic: 0
+[32minfo[39m: count: 0
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/68357f994178a46d77268ba0","status":"200","responseTime":"316.277"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/lecture/create","status":"200","responseTime":"5864.077"}
+[32minfo[39m: countLecturesInTopic: 68369bab8c68b491b7c470d4
+[32minfo[39m: countLecturesInTopic: 0
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/6835805e4178a46d77268bc4","status":"200","responseTime":"164.238"}
+[32minfo[39m: countLecturesInTopic: 68369bab8c68b491b7c470d4
+[32minfo[39m: countLecturesInTopic: 1
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/6835805e4178a46d77268bc4","status":"200","responseTime":"243.492"}
+[32minfo[39m: {"method":"DELETE","url":"/api/v1/topic/6835805e4178a46d77268bc4","status":"200","responseTime":"314.307"}

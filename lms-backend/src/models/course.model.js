@@ -30,16 +30,14 @@ const courseSchema = new Schema({
     price:{
         type: Number,
         required: true,
-        trim: true
-    },
-    createdAt: {
-        type: Date,
-        default: Date.now
     },
     discount:{
         type: Number,
-        default: 0
+        default: 0,
+        min:0
     }
+},{
+    timestamps: true
 });
 
 const Course = mongoose.model("Course", courseSchema);

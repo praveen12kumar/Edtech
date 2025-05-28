@@ -4,16 +4,17 @@ import ErrorHandler from "../utils/errorHandler.js";
 import { logger } from "../utils/logger.js";
 import { deleteFromCloudinary } from "../config/cloudinary-delete-config.js";
 import {TopicRepository} from "../repository/index.js";
-
+import {LectureRepository} from "../repository/index.js";
 
 class CourseService {
 
     constructor(){
         this.courseRepository = new CourseRepository();
         this.topicRepository = new TopicRepository();
+        this.lectureRepository = new LectureRepository();
     }
 
-    async createCourse({ title, description, price, thumbnail }) {
+    async createCourse({ title, description, price, discount, thumbnail }) {
         try {
             // Upload thumbnail to cloudinary
             const cloudImage = await uploadOnCloudinary(thumbnail);
@@ -26,6 +27,7 @@ class CourseService {
                 title,
                 description,
                 price,
+                discount,
                 thumbnail: {
                     public_id: cloudImage.public_id,
                     url: cloudImage.secure_url
@@ -66,19 +68,36 @@ class CourseService {
             if(!course){
                 throw new ErrorHandler("Course not found", 404);
             }
-            await this.topicRepository.deleteTopicByCourseId(courseId);
+            let topicsToDelete = [];
+
+            for(const topicId of course.topics){
+                const topic = await this.topicRepository.findTopicById(topicId);
+                if(topic){
+                    topicsToDelete.push(topic);
+                }
+            }
+
+            for(const topic of topicsToDelete){
+                for(const lectureId of topic.lectures){
+                    const count = await this.lectureRepository.countLecturesInTopic(lectureId);
+                    if(count === 1){
+                        await this.lectureRepository.deleteLectureById(lectureId);
+                    }
+                }
+                await this.topicRepository.findTopicByIdAndDelete(topic._id);
+            }
 
             if(course.thumbnail?.public_id){
                 await deleteFromCloudinary(course.thumbnail.public_id);
             }
 
             const result = await this.courseRepository.deleteCourseById(courseId);
-
             return result;
         } catch (error) {
             throw new Error("Unable to delete course", 403);
         }
     }
+
 
     async updateCourse(id, data, thumbnail){
         try {
@@ -110,8 +129,6 @@ class CourseService {
             throw new Error("Unable to update course", 403);
         }
     }
-
-
 };
 
 

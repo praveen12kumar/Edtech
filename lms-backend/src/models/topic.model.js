@@ -6,24 +6,19 @@ const topicSchema = new Schema({
         required:true,
         trim:true,
     },
+    courseId:{
+        type:Schema.Types.ObjectId,
+        ref:"Course",
+        required:true
+    },
     lectures:[{
         type:Schema.Types.ObjectId,
         ref:"Lecture",
     }],
-
-    courseRefs:[{
-        type:Schema.Types.ObjectId,
-        ref:"Course",
-    }],
-    createdAt:{
-        type:Date,
-        default:Date.now
-    },
-    numOfLectures:{
-        type:Number,
-        default:0
-    }
+}, {
+    timestamps:true
 });
+
 
 
 const Topic = mongoose.model("Topic", topicSchema);

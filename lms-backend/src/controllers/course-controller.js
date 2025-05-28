@@ -1,12 +1,13 @@
 import { CourseService } from "../services/index.js";
 import ErrorHandler from "../utils/errorHandler.js";
 import {catchAsyncError} from "../middlewares/catchAsyncError.js";
-
+import { logger } from "../utils/logger.js";
 
 const courseService = new CourseService();
 
+
 export const createCourse = catchAsyncError(async(req, res, next)=>{
-    const {title, description, price} = req.body;
+    const {title, description, price, discount} = req.body;
     const localImagePath = req?.file?.path;
 
     if(!title || !description || !price){
@@ -18,7 +19,7 @@ export const createCourse = catchAsyncError(async(req, res, next)=>{
     if(isNaN(price)){
         return next(new ErrorHandler("Price must be a number", 403));
     }
-        const response = await courseService.createCourse({title, description, price, thumbnail: localImagePath});
+        const response = await courseService.createCourse({title, description, price, discount, thumbnail: localImagePath});
         res.status(201).json({
             success: true,
             data: response,
@@ -63,6 +64,7 @@ export const getCourseDetails = catchAsyncError(async(req, res, next)=>{
 // update course
 export const updateCourse = catchAsyncError(async(req, res, next)=>{
     const {id} = req.params;
+
     const localImagePath = req?.file?.path;
     if(!id){
         return next(new ErrorHandler("Course Id is required", 403));

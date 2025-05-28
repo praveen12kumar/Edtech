@@ -35,10 +35,21 @@ import {
 // Topic
 
 import {
-    createTopic
+    createTopic,
+    updateTopic,
+    deleteTopic
 
 } from "../../controllers/topic-controller.js";
 
+
+// Lectures
+
+import {
+    addLecture,
+    getLectureDetails,
+    deleteLecture,
+    updateLecture
+} from "../../controllers/Lecture-controller.js";
 
 
 import {authenticate} from "../../middlewares/authenticate.js";
@@ -67,15 +78,23 @@ router.post('/user/reset-password', resetPassword);
 
 router.post('/course/create', authenticate, authorizeAdmin, upload.single("thumbnail"), createCourse);
 router.get('/courses', getAllCourses);
-router.get('/course/:id', getCourseDetails);
-router.put('/course/:id', authenticate, authorizeAdmin, upload.single("thumbnail"), updateCourse);
+router.get('/course/:id/details', getCourseDetails);
+router.put('/course/:id/update', authenticate, authorizeAdmin, upload.single("thumbnail"), updateCourse);
 router.delete('/course/:id', authenticate, authorizeAdmin, deleteCourse);
 
 
 // Topic
 
 router.post('/topic/create', authenticate, authorizeAdmin, createTopic);
+router.put('/topic/:id', authenticate, authorizeAdmin, updateTopic);
+router.delete('/topic/:id', authenticate, authorizeAdmin, deleteTopic);
 
+// Lectures
+
+router.post('/lecture/create', authenticate, authorizeAdmin, upload.single("video"), addLecture);
+router.get('/lecture/:id', authenticate, getLectureDetails);
+router.delete('/lecture/:id', authenticate, authorizeAdmin, deleteLecture);
+router.put('/lecture/:id', authenticate, authorizeAdmin, upload.single("video"), updateLecture);
 
 export default router;
 

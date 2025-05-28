@@ -20,7 +20,17 @@ class CourseRepository extends CrudRepository {
     async findCourseByIdAndUpdateTopic(courseId, topicId){
         try {
             const result = await this.model.findByIdAndUpdate(courseId, {$push :{topics:topicId}}, {new:true});
-            logger.info(`Topic added to course: ${result}`);
+            //logger.info(`Topic added to course: ${result}`);
+            return result;
+        } catch (error) {
+            throw error;
+        }
+    }
+
+    async findCourseByIdAndDeleteTopic(courseId, topicId){
+        try {
+            const result = await this.model.findByIdAndDelete(courseId, {$pull :{topics:topicId}});
+        
             return result;
         } catch (error) {
             throw error;
@@ -35,8 +45,17 @@ class CourseRepository extends CrudRepository {
 
 
     async getCourseById(id){
-        const response = await this.model.findById(id).populate("topics");
-        return response;
+        const course = await Course.findById(id)
+            .populate({
+                path: "topics",
+                select: "title lectures",
+                populate: {
+                    path: "lectures",
+                    select: "title description"
+                }
+            })
+            .lean();
+        return course;
     }
 
 
