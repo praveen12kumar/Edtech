@@ -7,9 +7,9 @@ import { logger } from "../utils/logger.js";
 const lectureService = new LectureService();
 
 export const addLecture = catchAsyncError(async(req, res, next)=>{
-    const {title, description, topicId} = req.body;
+    const {title, topicId} = req.body;
 
-    if(!title || !description || !topicId){
+    if(!title || !topicId){
         return next(new ErrorHandler("All fields are required", 403));
     }
 
@@ -19,7 +19,7 @@ export const addLecture = catchAsyncError(async(req, res, next)=>{
         return next(new ErrorHandler("Video is required", 403));
     }
     
-    const response = await lectureService.addLectureService({title, description, topicId, localVideoPath});
+    const response = await lectureService.addLectureService({title, topicId, localVideoPath});
     return res.status(200).json(response);
 
 });

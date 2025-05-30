@@ -7,10 +7,10 @@ const courseService = new CourseService();
 
 
 export const createCourse = catchAsyncError(async(req, res, next)=>{
-    const {title, description, price, discount} = req.body;
+    const {title, description, price, discount, createdBy} = req.body;
     const localImagePath = req?.file?.path;
 
-    if(!title || !description || !price){
+    if(!title || !description || !price || !createdBy){
         return next(new ErrorHandler("All fields are required", 403));
     }
     if(!localImagePath){
@@ -19,7 +19,7 @@ export const createCourse = catchAsyncError(async(req, res, next)=>{
     if(isNaN(price)){
         return next(new ErrorHandler("Price must be a number", 403));
     }
-        const response = await courseService.createCourse({title, description, price, discount, thumbnail: localImagePath});
+        const response = await courseService.createCourse({title, description, price, discount, createdBy, thumbnail: localImagePath});
         res.status(201).json({
             success: true,
             data: response,

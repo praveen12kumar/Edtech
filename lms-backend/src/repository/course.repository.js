@@ -51,7 +51,7 @@ class CourseRepository extends CrudRepository {
                 select: "title lectures",
                 populate: {
                     path: "lectures",
-                    select: "title description"
+                    select: "title description duration"
                 }
             })
             .lean();

@@ -10,8 +10,6 @@ cloudinary.config({
 const uploadOnCloudinary = async (localFilePath, fileType="image")=>{
     try {
 
-        console.log("localFilePath", localFilePath);
-
         if(!localFilePath){
             throw new Error("File not found");
         }
@@ -37,11 +35,21 @@ const uploadOnCloudinary = async (localFilePath, fileType="image")=>{
             fs.unlinkSync(localFilePath);
         }
 
+        if(fileType === "video"){
+            return{
+                success: true,
+                public_id: uploadResult?.public_id,
+                secure_url: uploadResult?.secure_url,
+                duration: uploadResult?.duration
+            }
+        }
+        else{
         return{
             success: true,
             public_id: uploadResult?.public_id,
             secure_url: uploadResult?.secure_url
         }
+    }
 
     } catch (error) {
         console.error("Cloudinary Upload Error:", error);

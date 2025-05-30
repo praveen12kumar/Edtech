@@ -14,7 +14,7 @@ class CourseService {
         this.lectureRepository = new LectureRepository();
     }
 
-    async createCourse({ title, description, price, discount, thumbnail }) {
+    async createCourse({ title, description, price, discount, createdBy, thumbnail }) {
         try {
             // Upload thumbnail to cloudinary
             const cloudImage = await uploadOnCloudinary(thumbnail);
@@ -28,6 +28,7 @@ class CourseService {
                 description,
                 price,
                 discount,
+                createdBy,
                 thumbnail: {
                     public_id: cloudImage.public_id,
                     url: cloudImage.secure_url

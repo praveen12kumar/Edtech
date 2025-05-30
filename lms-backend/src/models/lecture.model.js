@@ -7,11 +7,6 @@ const lectureSchema = new Schema({
         required: true,
         trim: true
     },
-    description: {
-        type: String,
-        required: true,
-        trim: true
-    },
     video: {
         public_id: {
             type: String,
@@ -24,6 +19,11 @@ const lectureSchema = new Schema({
             trim: true
         }
     },
+    duration:{
+        type: String,
+        required: true,
+        trim: true
+    }
 }, {
     timestamps: true
 });

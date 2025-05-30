@@ -16,11 +16,11 @@ class LectureService {
 
 
     async addLectureService(data) {
-        const {title, description, topicId, localVideoPath} = data;
+        const {title,topicId, localVideoPath} = data;
         try {
 
             const cloudVideo = await uploadOnCloudinary(localVideoPath, "video");
-            
+            //console.log("Cloud Video", cloudVideo);
 
             if (!cloudVideo || !cloudVideo.secure_url) {
                 throw new ErrorHandler("Video upload failed", 403);
@@ -28,13 +28,12 @@ class LectureService {
             
             const lecture = await this.lectureRepository.create({
                 title,
-                description,
                 video: {
                     url: cloudVideo.secure_url,
                     public_id: cloudVideo.public_id
-                }
+                },
+                duration: cloudVideo.duration
             });
-
              
             const topic = await this.topicRepository.findTopicById(topicId);
             if(!topic){
