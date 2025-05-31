@@ -23,10 +23,20 @@ class UserRepository extends CrudRepository {
             const result = await User.findOne({ verifyPasswordOTP: token });
             return result;
         } catch (error) {
-            logger.error(`Error finding user by token: ${token} - ${error.message}`);
-            throw error;
+            //logger.error(`Error finding user by token: ${token} - ${error.message}`);
+            throw new ErrorHandler("Error finding user by token", 404); // Replace with appropriate error handling not found", 404);
         }
     }
+
+    async findUserById(userId){
+        try {
+            const result = await User.findById(userId);
+            return result;
+        } catch (error) {
+            throw new ErrorHandler("User not found", 404);
+        }
+    }
+
 }
 
 export default UserRepository;

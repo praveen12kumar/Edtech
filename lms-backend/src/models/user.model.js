@@ -45,6 +45,12 @@ const userSchema = new Schema({
         default: false
     },
 
+    courses:[{
+        type: Schema.Types.ObjectId,
+        ref: "Course",
+        default:[]
+    }],
+
     resetPasswordToken:String,
 
     resetPasswordTokenExpiry:Date,
@@ -53,7 +59,7 @@ const userSchema = new Schema({
 
     verifyPasswordOTPExpiry:Date,
 
-    subscription:{
+    payment:{
         id:String,
         status: String
     }

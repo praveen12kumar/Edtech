@@ -1135,3 +1135,573 @@
 [32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"177.477"}
 [32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"188.696"}
 [32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"178.963"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"112.280"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"807.000"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/logout","status":"200","responseTime":"9.195"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/user/signin","status":"204","responseTime":"1.597"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"232.766"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/logout","status":"200","responseTime":"0.694"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/user/signin","status":"204","responseTime":"0.817"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"465.830"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"1054.688"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"71.581"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"195.203"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"69.340"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"219.293"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"1355.748"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"999.481"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"885.723"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"501.716"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"200","responseTime":"97.081"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"98.091"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"230.757"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"233.798"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"196.027"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"178.963"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"-","responseTime":"-"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"620.565"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"121.561"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"707.644"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"200","responseTime":"74.180"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"209.186"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"197.844"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"193.533"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"218.286"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/razorpay-key","status":"404","responseTime":"1.287"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/payments/subscribe","status":"404","responseTime":"2.764"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"85.597"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"217.169"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"200","responseTime":"665.138"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"77.707"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"216.853"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"692.598"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/logout","status":"200","responseTime":"2.259"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/user/signin","status":"204","responseTime":"0.481"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"209.870"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"78.542"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/logout","status":"200","responseTime":"2.293"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/user/signin","status":"204","responseTime":"0.419"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"163.904"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"82.957"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"210.476"}
+[31merror[39m: [object Object]
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"560.135"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"229.418"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"62.206"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"223.727"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"3073.629"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"253.140"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"302.687"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/razorpay-key","status":"404","responseTime":"2.317"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/razorpay-key","status":"404","responseTime":"7.609"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"200","responseTime":"11.616"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/razorpay-key","status":"404","responseTime":"2.702"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"200","responseTime":"3.670"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.526"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.675"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"258.682"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"5.242"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.988"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"4.201"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"200","responseTime":"11.829"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"7.284"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"21.273"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"4.150"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"4.099"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.457"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.724"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.355"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.525"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.852"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"11.887"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"276.237"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"4.322"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"17.718"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"4.971"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"15.454"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"274.683"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"4.011"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"200","responseTime":"7.347"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1443.340"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.210"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"471.969"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"504.023"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"8.653"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:26:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"4.216"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.471"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:26:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"2.934"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.368"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:26:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"2.808"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.670"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:26:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"36.044"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"504.306"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"7.023"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:27:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"5.434"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"244.803"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"5.274"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:27:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"22.658"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"5.107"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:27:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"14.126"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"4.212"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:27:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"7.150"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.563"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.774"}
+[31merror[39m: POST /api/v1/course/purchase - 400 - Unexpected token '"', ""6836c24bc"... is not valid JSON
+[31merror[39m: SyntaxError: Unexpected token '"', ""6836c24bc"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\body-parser\lib\types\json.js:86:15)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\raw-body\index.js:238:16)
+    at done (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"400","responseTime":"6.392"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.243"}
+[31merror[39m: POST /api/v1/course/purchase - 400 - Unexpected token '"', ""6836c24bc"... is not valid JSON
+[31merror[39m: SyntaxError: Unexpected token '"', ""6836c24bc"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\body-parser\lib\types\json.js:86:15)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\raw-body\index.js:238:16)
+    at done (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"400","responseTime":"2.940"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.104"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:27:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"5.014"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.777"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:27:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"5.661"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"20.236"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"2.416"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1503.220"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"5.492"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.962"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"655.761"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"291.853"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"6.044"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.623"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"558.389"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"14.903"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.470"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"562.398"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"5.486"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.212"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"479.035"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.275"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"3.441"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"450.144"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.304"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.600"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"492.171"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.199"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.430"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"463.973"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.989"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.417"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"488.070"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.965"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.418"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"436.704"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.583"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.690"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"446.560"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.848"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.746"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"528.014"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.854"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.511"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"450.093"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.394"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.401"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"461.788"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.386"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.269"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"485.441"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.503"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.283"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1482.090"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.984"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.415"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"394.082"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.525"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.541"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"546.693"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.307"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.340"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"439.514"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/verify","status":"404","responseTime":"1.114"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"103.329"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"218.555"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.921"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.384"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"475.275"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/verify","status":"404","responseTime":"1.320"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"14.462"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.507"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"617.282"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"112.215"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"232.405"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"2.723"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.748"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"558.999"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/verify","status":"404","responseTime":"1.477"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"8.827"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.647"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:27:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"16.598"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"1.690"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.384"}
+[31merror[39m: POST /api/v1/course/purchase - 403 - Course is required
+[31merror[39m: Error: Course is required
+    at buyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:27:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"403","responseTime":"7.323"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"91.806"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"228.263"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.331"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.063"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1578.187"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/verify","status":"404","responseTime":"2.026"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"78.785"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"242.368"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"9.024"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.920"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"644.139"}
+[31merror[39m: GET /api/v1/payments/verify - 403 - All fields are required
+[31merror[39m: Error: All fields are required
+    at verifyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:48:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/verify","status":"403","responseTime":"5.646"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"103.520"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"219.494"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"6.576"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.559"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"583.132"}
+[31merror[39m: GET /api/v1/payments/verify - 403 - All fields are required
+[31merror[39m: Error: All fields are required
+    at verifyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:49:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/verify","status":"403","responseTime":"5.136"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"95.845"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"232.121"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"6.254"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.938"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"651.488"}
+[31merror[39m: GET /api/v1/payments/verify - 403 - All fields are required
+[31merror[39m: Error: All fields are required
+    at verifyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:50:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"GET","url":"/api/v1/payments/verify","status":"403","responseTime":"6.170"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"94.291"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"255.857"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"6.841"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.828"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"675.169"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.874"}
+[31merror[39m: POST /api/v1/payments/verify - 403 - All fields are required
+[31merror[39m: Error: All fields are required
+    at verifyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:50:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/payments/verify","status":"403","responseTime":"5.909"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"71.941"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"206.148"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.008"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.431"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"562.297"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.614"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"81.829"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"229.816"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"5.878"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.856"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1833.222"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.355"}
+[31merror[39m: POST /api/v1/payments/verify - 403 - All fields are required
+[31merror[39m: Error: All fields are required
+    at verifyCourse (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/controllers/payment-controller.js:50:21)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at authenticate (file:///D:/Sanket-Frontend/React-Project/Edtech/lms-backend/src/middlewares/authenticate.js:18:9)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Sanket-Frontend\React-Project\Edtech\lms-backend\node_modules\express\lib\router\index.js:346:12)
+[32minfo[39m: {"method":"POST","url":"/api/v1/payments/verify","status":"403","responseTime":"8.025"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"93.545"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"204.816"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"5.251"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.459"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"536.828"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.528"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"99.309"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"206.728"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"10.093"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.765"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"524.482"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"1.005"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"98.422"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"216.838"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"8.256"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.177"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"570.786"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.549"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"112.883"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"241.685"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"10.599"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.132"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1616.180"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.331"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"94.870"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"258.871"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"9.817"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.367"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1231.999"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.616"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/payments/verify","status":"200","responseTime":"10162.261"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"200","responseTime":"65.043"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"67.385"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"201.171"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"11.799"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.191"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"533.716"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"212.053"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"205.102"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"3.242"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.606"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"383.494"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"1.088"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/payments/verify","status":"200","responseTime":"251.678"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"304","responseTime":"76.644"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"89.673"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"243.101"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"20.761"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.736"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1443.558"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.984"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/payments/verify","status":"200","responseTime":"1148.729"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"200","responseTime":"109.819"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"76.722"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"218.357"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9","status":"404","responseTime":"1.376"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"214.024"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9","status":"404","responseTime":"11.856"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9","status":"404","responseTime":"1.747"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9","status":"404","responseTime":"1.684"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/lecture/6836c24bc33a9a4fedbbacd9","status":"200","responseTime":"100.381"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/lecture/6836c24bc33a9a4fedbbacd9","status":"304","responseTime":"69.155"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"226.806"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"241.405"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"78.007"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"209.211"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"4.312"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.150"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"1654.236"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.555"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"24.599"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"1.242"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"540.054"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"243.762"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"91.923"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"86.264"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"220.624"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"199.189"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"336.402"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/logout","status":"200","responseTime":"1.983"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/user/signin","status":"204","responseTime":"0.992"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"188.340"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"76.983"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"241.084"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/razorpay-key","status":"304","responseTime":"5.755"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/course/purchase","status":"204","responseTime":"0.597"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/course/purchase","status":"200","responseTime":"530.207"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/payments/verify","status":"204","responseTime":"0.640"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/payments/verify","status":"200","responseTime":"1096.693"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/user/me","status":"200","responseTime":"74.977"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"86.377"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"237.634"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"236.755"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/logout","status":"200","responseTime":"0.745"}
+[32minfo[39m: {"method":"OPTIONS","url":"/api/v1/user/signin","status":"204","responseTime":"0.669"}
+[32minfo[39m: {"method":"POST","url":"/api/v1/user/signin","status":"200","responseTime":"151.708"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"65.212"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"261.578"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/courses","status":"304","responseTime":"87.973"}
+[32minfo[39m: {"method":"GET","url":"/api/v1/course/6836c24bc33a9a4fedbbacd9/details","status":"304","responseTime":"206.266"}
